@@ -1,11 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.0'
+platform :tvos, '13'
+
 use_frameworks!
 inhibit_all_warnings!
 
 target 'ADMozaikCollectionViewLayout' do
-  pod 'Sourcery', '~> 0.5'
+  pod 'Sourcery'#, '~> 0.5'
 
   target 'ADMozaikCollectionViewLayoutTests' do
     inherit! :search_paths
